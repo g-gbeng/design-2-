@@ -1,0 +1,67 @@
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/img.jpeg); background-size:cover; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    max-width: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width:1300px) {
+        max-width: 1125px;
+        max-height: 707px;
+    }
+}
+    
+.button{
+    text-align:center ;
+    border: 1px solid rgba(131, 128, 128, 0.616);
+    padding: 10px;
+    background-color: white;
+    width: 65%;
+    border-radius: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.email-button{
+        text-align:center ;
+        border: 1px solid rgba(131, 128, 128, 0.616);
+        padding: 10px;
+        background-color: black;
+        color: white;
+        width: 65%;
+        border-radius: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    .text{
+        width: 65%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-img{
+        width: 10%;
+        border-radius: 80%;
+    }
+
+    
